@@ -1,13 +1,6 @@
 
 
 ## Project Description
-
-In this project, I use a neural network to clone car driving behavior.  It is a supervised regression problem between the car steering angles and the road images in front of a car.  
-
-Those images were taken from three different camera angles (from the center, the left and the right of the car).  
-
-The network is based on [The NVIDIA model](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/), which has been proven to work in this problem domain.
-
 Questo progetto usa una rete neurale per imitare la guida di un veicolo nel simulatore di Udacity. E' un problema di regressione supervisionata tra i comandi del veicolo e le immagini dell'ambiente circostante.
 Le immagini sono state scattate da tre camere poste a bordo del veicolo (di fronte, a sinistra e a destra).
 La rete è basata sul [modello di NVIDIA](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/) che ha dimostrato delle buone performance in questo dominio applicativo.
@@ -30,4 +23,18 @@ Raccolta del dataset:
 4. Premere il tasto `R` e guidare il veicolo nel percorso con le freccette direzionali (consigliati 3-5 giri).
 5. Premere il tasto `R` per catturare il dataset.
 
-1. Aprire un 
+Training:
+1. Aprire un `Anaconda Prompt` e digitare `activate env`.
+2. Andare nella directory in cui è stata clonata la repository ed eseguire il comando `python model.py`. E' possibile aggiungere `-n` seguito da un valore per specificare il numero di epoch (default 30). Per consultare tutti i parametri che si possono modificare, consultare il file `model.py`.
+
+Alla fine dell'apprendimento, nella directory principale sarà possibile trovare una copia del modello per ogni epoch eseguito.
+
+Testing:
+1. Avviare l'applicazione `beta_simulator.exe, scegliere le opzioni grafiche che si preferiscono e premere `Play!`.
+2. Scegliere il percorso su cui testare il modello e premere `Autonomous mode`.
+3. Aprire un `Anaconda Prompt` e digitare `activate env`.
+4. Andare nella directory in cui si trova il modello da testare ed eseguire il comando `python drive.py model.h5` sostituendo `model.h5` con il nome del proprio file.
+
+Nella repository sono già presenti due modelli già allenati.
+`model-t1.h5` completa il primo percorso ed è stato allenato su 10 epoch.
+`model-t2.h5` completa il secondo percorso ed è stato allenaro su 23 epoch.
