@@ -30,7 +30,7 @@ Training:
 Alla fine dell'apprendimento, nella directory principale sarà possibile trovare una copia del modello per ogni epoch eseguito.
 
 Testing:
-1. Avviare l'applicazione `beta_simulator.exe, scegliere le opzioni grafiche che si preferiscono e premere `Play!`.
+1. Avviare l'applicazione `beta_simulator.exe`, scegliere le opzioni grafiche che si preferiscono e premere `Play!`.
 2. Scegliere il percorso su cui testare il modello e premere `Autonomous mode`.
 3. Aprire un `Anaconda Prompt` e digitare `activate env`.
 4. Andare nella directory in cui si trova il modello da testare ed eseguire il comando `python drive.py model.h5` sostituendo `model.h5` con il nome del proprio file.
