@@ -18,16 +18,16 @@ Setup dell'ambiente:
 
 1. Clonare la repository.
 2. Scaricare e installare [Anaconda](https://www.anaconda.com/products/distribution).
-3. Installare l'ambiente con le dependencies specificate nel file 'env.yalm'.
+3. Installare l'ambiente con le dependencies specificate nel file `env.yalm`.
 4. Scaricare [Udacity Simulator] (https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/Term1-Sim/term1-simulator-windows.zip).
-5. Creare la cartella "data" nella directory del file "model.py".
+5. Creare la cartella `data` nella directory del file `model.py`.
 
 Raccolta del dataset:
 
-1. Avviare l'applicazione "beta_simulator.exe" scaricata al punto 4, scegliere le opzioni grafiche che si preferiscono e premere "Play!".
-2. Scegliere il percorso da cui si vuole ricavare il dataset e premere "Training mode".
-3. Premere il tasto R, selezionare la directory "data" creata in precedenza, e premere "select".
-4. Premere il tasto R e guidare il veicolo nel percorso con le freccette direzionali (consigliati 3-5 giri).
-5. Premere il tasto R per catturare il dataset.
+1. Avviare l'applicazione `beta_simulator.exe` scaricata al punto 4, scegliere le opzioni grafiche che si preferiscono e premere `Play!`.
+2. Scegliere il percorso da cui si vuole ricavare il dataset e premere `Training mode`.
+3. Premere il tasto `R`, selezionare la directory `data` creata in precedenza, e premere `select`.
+4. Premere il tasto `R` e guidare il veicolo nel percorso con le freccette direzionali (consigliati 3-5 giri).
+5. Premere il tasto `R` per catturare il dataset.
 
 1. Aprire un 
