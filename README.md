@@ -36,5 +36,5 @@ Testing:
 4. Andare nella directory in cui si trova il modello da testare ed eseguire il comando `python drive.py model.h5` sostituendo `model.h5` con il nome del proprio file.
 
 Nella repository sono presenti due modelli già allenati.  
-`model-t1.h5` completa il primo percorso ed è stato allenato su 10 epoch.
+`model-t1.h5` completa il primo percorso ed è stato allenato su 10 epoch.  
 `model-t2.h5` completa il secondo percorso ed è stato allenaro su 23 epoch.
